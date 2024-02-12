@@ -1,0 +1,200 @@
+# Reading pref.tcl
+# do counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral {C:/Users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:06:13 on Jan 25,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral" C:/Users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 10:06:13 on Jan 25,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:06:16 on Jan 25,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral" C:/Users/gusbr/Desktop/CodingShit/Quartus/Counter_Behavioral/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 10:06:17 on Jan 25,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 10:06:17 on Jan 25,2024
+# Loading work.testbench
+# Loading work.counter
+run 2000 ns
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b00
+# DESCRIPTION Modulo-4 up
+# TIME 50
+# 
+# PASSED
+# ACTUAL 01
+# EXPECTED 01
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b00
+# DESCRIPTION Modulo-4 up
+# TIME 150
+# 
+# PASSED
+# ACTUAL 10
+# EXPECTED 10
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b00
+# DESCRIPTION Modulo-4 up
+# TIME 250
+# 
+# PASSED
+# ACTUAL 11
+# EXPECTED 11
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b00
+# DESCRIPTION Modulo-4 up
+# TIME 350
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b00
+# DESCRIPTION Modulo-4 up
+# TIME 400
+# 
+# PASSED
+# ACTUAL 11
+# EXPECTED 11
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b01
+# DESCRIPTION Modulo-4 down
+# TIME 550
+# 
+# PASSED
+# ACTUAL 10
+# EXPECTED 10
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b01
+# DESCRIPTION Modulo-4 down
+# TIME 650
+# 
+# PASSED
+# ACTUAL 01
+# EXPECTED 01
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b01
+# DESCRIPTION Modulo-4 down
+# TIME 750
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b01
+# DESCRIPTION Modulo-4 down
+# TIME 850
+# 
+# PASSED
+# ACTUAL 11
+# EXPECTED 11
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b01
+# DESCRIPTION Modulo-4 down
+# TIME 900
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b10
+# DESCRIPTION Modulo-3 up
+# TIME 1050
+# 
+# PASSED
+# ACTUAL 01
+# EXPECTED 01
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b10
+# DESCRIPTION Modulo-3 up
+# TIME 1150
+# 
+# PASSED
+# ACTUAL 10
+# EXPECTED 10
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b10
+# DESCRIPTION Modulo-3 up
+# TIME 1250
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b10
+# DESCRIPTION Modulo-3 up
+# TIME 1350
+# 
+# PASSED
+# ACTUAL 01
+# EXPECTED 01
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b10
+# DESCRIPTION Modulo-3 up
+# TIME 1400
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b11
+# DESCRIPTION Modulo-3 down
+# TIME 1550
+# 
+# PASSED
+# ACTUAL 10
+# EXPECTED 10
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b11
+# DESCRIPTION Modulo-3 down
+# TIME 1650
+# 
+# PASSED
+# ACTUAL 01
+# EXPECTED 01
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b11
+# DESCRIPTION Modulo-3 down
+# TIME 1750
+# 
+# PASSED
+# ACTUAL 00
+# EXPECTED 00
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b11
+# DESCRIPTION Modulo-3 down
+# TIME 1850
+# 
+# PASSED
+# ACTUAL 10
+# EXPECTED 10
+# TESTED SIGNAL NAME (q1,q0)
+# INPUTS (s1,s0) = 2'b11
+# DESCRIPTION Modulo-3 down
+# TIME 1900
+# End time: 10:08:25 on Jan 25,2024, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 0

@@ -1,0 +1,291 @@
+# Reading pref.tcl
+# do And2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2 {C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/andMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:39 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/andMod.v 
+# -- Compiling module andMod
+# 
+# Top level modules:
+# 	andMod
+# End time: 11:26:39 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:46 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:UsersgusbrDesktopCodingShitQuartusAnd2{C:UsersgusbrDesktopCodingShitQuartusAnd2	estbench.v}" 
+#     The vlog command compiles Verilog source code and SystemVerilog extensions
+#     into a specified working library (or to the work library by default).
+#     Compressed SystemVerilog source files (those compressed with zlib) are
+#     accepted.
+#     
+#     The vlog command may be invoked from within Questa SIM or from the
+#     operating system command prompt. It may also be invoked during simulation.
+#     Compiled libraries are major-version dependent. When moving between major
+#     version, you have to refresh compiled libraries using the -refresh argument
+#     to vlog. This is not true for minor versions (letter releases).
+#     
+#     All arguments to the vlog command are case sensitive. For example, -WORK
+#     and -work are not equivalent.
+#     
+#     SystemVerilog requires that the default behavior of the vlog command is to
+#     treat each Verilog design file listed on the command line as a separate
+#     compilation unit. To treat multiple files listed within a single command
+#     line as a single compilation unit, use either the vlog -mfcu argument or
+#     the MultiFileCompilationUnit in the User's Manual
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vlog -help all            : List all categories and options
+#     vlog -help category       : List all categories
+#     vlog -help <option>       : Help on an option
+#     vlog -help <command-line> : Help on all options in a command-line
+#     vlog -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vlog tool.
+# 
+#     General         List most common general options
+#     Analog          List options supporting analog mixed-signal (AMS)
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     Messages        List all warn, error, note, fatal messages options
+#     Optimize        List options for optimization
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.do line 1
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:\Users\gusbr\Desktop\CodingShit\Quartus\And2{C:\Users\gusbr\Desktop\CodingShit\Quartus\And2\testbench.v}"
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:42:11 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2{C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v}" 
+#     The vlog command compiles Verilog source code and SystemVerilog extensions
+#     into a specified working library (or to the work library by default).
+#     Compressed SystemVerilog source files (those compressed with zlib) are
+#     accepted.
+#     
+#     The vlog command may be invoked from within Questa SIM or from the
+#     operating system command prompt. It may also be invoked during simulation.
+#     Compiled libraries are major-version dependent. When moving between major
+#     version, you have to refresh compiled libraries using the -refresh argument
+#     to vlog. This is not true for minor versions (letter releases).
+#     
+#     All arguments to the vlog command are case sensitive. For example, -WORK
+#     and -work are not equivalent.
+#     
+#     SystemVerilog requires that the default behavior of the vlog command is to
+#     treat each Verilog design file listed on the command line as a separate
+#     compilation unit. To treat multiple files listed within a single command
+#     line as a single compilation unit, use either the vlog -mfcu argument or
+#     the MultiFileCompilationUnit in the User's Manual
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vlog -help all            : List all categories and options
+#     vlog -help category       : List all categories
+#     vlog -help <option>       : Help on an option
+#     vlog -help <command-line> : Help on all options in a command-line
+#     vlog -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vlog tool.
+# 
+#     General         List most common general options
+#     Analog          List options supporting analog mixed-signal (AMS)
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     Messages        List all warn, error, note, fatal messages options
+#     Optimize        List options for optimization
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.do line 1
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2{C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v}"
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:43:12 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module test_Tests_tb
+# 
+# Top level modules:
+# 	test_Tests_tb
+# End time: 11:43:12 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:44:24 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module test_Tests_tb
+# 
+# Top level modules:
+# 	test_Tests_tb
+# End time: 11:44:24 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:45:04 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:45:04 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'test' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v Line: 9
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:46:18 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:46:18 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'test' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v Line: 9
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'test' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v Line: 9
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'test' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v Line: 9
+#         Searched libraries:
+#             C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:49:22 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	--none--
+# End time: 11:49:22 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# ** Warning: (vsim-3035) Instantiation depth of '/testbench/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/testbench/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0/tb0 File: C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testbench.do PAUSED at line 3
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:50:07 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:50:07 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:43:12 on Feb 07,2024
+# Loading work.testbench
+# Loading work.andMod
+run 100 ns
+add wave -position insertpoint  \
+sim:/testbench/X \
+sim:/testbench/Y \
+sim:/testbench/Z \
+sim:/testbench/patterns \
+sim:/testbench/i
+run 100 ns
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:50:36 on Feb 07,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/And2" C:/Users/gusbr/Desktop/CodingShit/Quartus/And2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:50:36 on Feb 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:50:36 on Feb 07,2024, Elapsed time: 0:07:24
+# Errors: 7, Warnings: 1
+# vsim work.testbench 
+# Start time: 11:50:36 on Feb 07,2024
+# Loading work.testbench
+# Loading work.andMod
+add wave -position insertpoint  \
+sim:/testbench/X \
+sim:/testbench/Y \
+sim:/testbench/Z \
+sim:/testbench/patterns \
+sim:/testbench/i
+run 100 ns
+run

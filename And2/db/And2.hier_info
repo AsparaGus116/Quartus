@@ -1,0 +1,6 @@
+|andMod
+X => Z.IN0
+Y => Z.IN1
+Z << Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
