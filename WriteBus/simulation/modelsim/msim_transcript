@@ -1,0 +1,124 @@
+# Reading pref.tcl
+# do write_data_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:31:47 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v 
+# -- Compiling module write_data
+# 
+# Top level modules:
+# 	write_data
+# End time: 08:31:47 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:31:47 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 08:31:47 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:31:47 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 08:31:47 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:32:22 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Downloads" C:/Users/gusbr/Downloads/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:32:22 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 08:32:22 on Feb 12,2024
+# Loading work.testbench
+# Loading work.write_data
+# Loading work.mux2
+# Loading work.mux4
+add wave -position insertpoint  \
+sim:/testbench/Addr \
+sim:/testbench/rd2 \
+sim:/testbench/StoreType \
+sim:/testbench/ReadData \
+sim:/testbench/WriteData
+run 2000 ns
+# 
+# PASSED
+# ACTUAL ffffffff
+# EXPECTED ffffffff
+# TESTED SIGNAL NAME WriteData
+# INPUTS rd2 = 32'hffffffff
+# DESCRIPTION Write 32-bit word in rd2
+# TIME 20
+# 
+# PASSED
+# ACTUAL a5b4c3ff
+# EXPECTED a5b4c3ff
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 0 of rd2
+# TIME 30
+# 
+# PASSED
+# ACTUAL a5b4ffd2
+# EXPECTED a5b4ffd2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 1 of rd2
+# TIME 40
+# 
+# PASSED
+# ACTUAL a5ffc3d2
+# EXPECTED a5ffc3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 2 of rd2
+# TIME 50
+# 
+# PASSED
+# ACTUAL ffb4c3d2
+# EXPECTED ffb4c3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 3 of rd2
+# TIME 60
+# 
+# PASSED
+# ACTUAL a5b4ffff
+# EXPECTED a5b4ffff
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write half word 0 of rd2
+# TIME 70
+# 
+# PASSED
+# ACTUAL ffffc3d2
+# EXPECTED ffffc3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write half word 1 of rd2
+# TIME 80
+# End time: 21:10:42 on Feb 13,2024, Elapsed time: 36:38:20
+# Errors: 0, Warnings: 0

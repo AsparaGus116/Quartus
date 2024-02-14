@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/simulation/modelsim
+vmux2
+Z1 !s110 1707744707
+!i10b 1
+!s100 a1F4Ulk91_=2DUYZS?LgY1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4FCYXNI9T^d>98f`R1dbZ1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1707713272
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v
+!i122 2
+L0 1 20
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1707744707.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus|C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux2.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus
+Z9 tCvgOpt 0
+vmux4
+R1
+!i10b 1
+!s100 @gE9SE?bac9021A`<TnL;3
+R2
+I21=N9OBeQG9FeL[Amc98d2
+R3
+R0
+R4
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v
+!i122 1
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus|C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/mux4.v|
+!i113 1
+R7
+R8
+R9
+vtestbench
+!s110 1707744742
+!i10b 1
+!s100 Q7Q9OWdj>[ZV0X42g;odc0
+R2
+IPaSU8>WC3<jRTm8LicdgC2
+R3
+R0
+w1707744726
+8C:/Users/gusbr/Downloads/testbench.v
+FC:/Users/gusbr/Downloads/testbench.v
+!i122 3
+L0 25 67
+R5
+r1
+!s85 0
+31
+!s108 1707744742.000000
+!s107 C:/Users/gusbr/Downloads/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Downloads|C:/Users/gusbr/Downloads/testbench.v|
+!i113 1
+R7
+!s92 -vlog01compat -work work +incdir+C:/Users/gusbr/Downloads
+R9
+vwrite_data
+R1
+!i10b 1
+!s100 `KcOGi:nm9]`:TeEEBahd0
+R2
+IRSG@iW:`znln;FA<zmLK:2
+R3
+R0
+w1707744600
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v
+!i122 0
+L0 20 106
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus|C:/Users/gusbr/Desktop/CodingShit/Quartus/WriteBus/write_data.v|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,210 @@
+# Reading pref.tcl
+# do read_data_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/read_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:20 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/read_data.v 
+# -- Compiling module read_data
+# 
+# Top level modules:
+# 	read_data
+# End time: 07:55:20 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:20 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 07:55:20 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:20 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux3.v 
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 07:55:20 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:20 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 07:55:20 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/zero_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:20 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/zero_extend.v 
+# -- Compiling module zero_extend
+# 
+# Top level modules:
+# 	zero_extend
+# End time: 07:55:21 on Feb 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus {C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:21 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus" C:/Users/gusbr/Desktop/CodingShit/Quartus/ReadBus/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 07:55:21 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:55:25 on Feb 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Downloads" C:/Users/gusbr/Downloads/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:55:25 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 07:55:25 on Feb 12,2024
+# Loading work.testbench
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.mux2
+# Loading work.mux3
+# Loading work.sign_extend
+# Loading work.zero_extend
+add wave -position insertpoint  \
+sim:/testbench/dut/ReadDataOut \
+sim:/testbench/dut/ReadDataHalf \
+sim:/testbench/dut/ReadDataByte \
+sim:/testbench/dut/ReadData \
+sim:/testbench/dut/LoadType \
+sim:/testbench/dut/HalfOut \
+sim:/testbench/dut/ByteOut \
+sim:/testbench/dut/Addr
+run 2000 ns
+# 
+# PASSED
+# ACTUAL a5b4c3d2
+# EXPECTED a5b4c3d2
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read the 32-bit word
+# TIME 20
+# 
+# PASSED
+# ACTUAL 000000d2
+# EXPECTED 000000d2
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 0, zero extend
+# TIME 30
+# 
+# PASSED
+# ACTUAL 000000c3
+# EXPECTED 000000c3
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 1, zero extend
+# TIME 40
+# 
+# PASSED
+# ACTUAL 000000b4
+# EXPECTED 000000b4
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 2, zero extend
+# TIME 50
+# 
+# PASSED
+# ACTUAL 000000a5
+# EXPECTED 000000a5
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 3, zero extend
+# TIME 60
+# 
+# PASSED
+# ACTUAL ffffffd2
+# EXPECTED ffffffd2
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 0, sign extend
+# TIME 70
+# 
+# PASSED
+# ACTUAL ffffffc3
+# EXPECTED ffffffc3
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 1, sign extend
+# TIME 80
+# 
+# PASSED
+# ACTUAL ffffffb4
+# EXPECTED ffffffb4
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 2, sign extend
+# TIME 90
+# 
+# PASSED
+# ACTUAL ffffffa5
+# EXPECTED ffffffa5
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read byte 3, sign extend
+# TIME 100
+# 
+# PASSED
+# ACTUAL 0000c3d2
+# EXPECTED 0000c3d2
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read half word 0, zero extend
+# TIME 110
+# 
+# PASSED
+# ACTUAL 0000a5b4
+# EXPECTED 0000a5b4
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read half word 1, zero extend
+# TIME 120
+# 
+# PASSED
+# ACTUAL ffffc3d2
+# EXPECTED ffffc3d2
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read half word 0, sign extend
+# TIME 130
+# 
+# PASSED
+# ACTUAL ffffa5b4
+# EXPECTED ffffa5b4
+# TESTED SIGNAL NAME ReadDataOut
+# INPUTS ReadData = 32'ha5b4c3d2
+# DESCRIPTION Read half word 1, sign extend
+# TIME 140
+# INFO End of tests
+# TIME 140
+# End time: 07:57:29 on Feb 12,2024, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
