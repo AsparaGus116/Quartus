@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/simulation/modelsim
+vALU
+!s110 1708353597
+!i10b 1
+!s100 a^JdVf^]`1>TVY1UBhFAC3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK]2:PB4Ko[iR^ZTUo2:Od0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1708353557
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v
+!i122 0
+L0 1 92
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1708353597.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU|C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU
+Z5 tCvgOpt 0
+n@a@l@u
+vtestbench
+!s110 1708353602
+!i10b 1
+!s100 4YV24YLoHCRcF:;m`2Q<P3
+R1
+I@>=Y66;]mgonlS<zoA;I]2
+R2
+R0
+w1708342737
+8C:/Users/gusbr/Downloads/testbench.v
+FC:/Users/gusbr/Downloads/testbench.v
+!i122 1
+L0 3 86
+R3
+r1
+!s85 0
+31
+!s108 1708353602.000000
+!s107 C:/Users/gusbr/Downloads/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Downloads|C:/Users/gusbr/Downloads/testbench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/gusbr/Downloads
+R5
