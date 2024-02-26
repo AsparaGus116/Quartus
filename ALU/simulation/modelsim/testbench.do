@@ -8,4 +8,3 @@ sim:/testbench/B \
 sim:/testbench/ALUcontrol \
 sim:/testbench/result \
 sim:/testbench/flags
-run 120 ns

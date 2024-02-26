@@ -8,7 +8,9 @@ module ALU(A,B,ALUcontrol,result,flags);
 	
 	reg [31:0] sum;
 	reg [31:0] sub;
-	
+	reg [31:0] negB;
+	reg [32:0] coutCalc;
+	reg [32:0] addCout;
 	reg cout;
 	
 	reg v;
@@ -21,11 +23,12 @@ module ALU(A,B,ALUcontrol,result,flags);
 	reg n;
 	
 	
-	
-	
-	always @(A, B, ALUcontrol, sum, sub, v, v1, v2, v3) begin
+	always @(A, B, ALUcontrol, sum, sub, v, v1, v2, v3, cout) begin
 		sum = A + B;
-		{cout, sub} = A + ~B + 1;
+		negB = ~B + 1;
+		coutCalc = A + negB;
+		addCout = A + B;
+		sub = A + ~B + 1;
 		v1 = ((~ALUcontrol[3])&(~ALUcontrol[2])&(~ALUcontrol[1]))|((~ALUcontrol[3])&(~ALUcontrol[1])&(ALUcontrol[0]));
 		v2 = A[31] ^ sum[31];
 		v3 = ~(A[31] ^ B[31] ^ ALUcontrol[0]);
@@ -36,10 +39,12 @@ module ALU(A,B,ALUcontrol,result,flags);
 			4'b0000: 
 				begin
 					result = A + B;
+					cout = addCout[32];
 				end
 			4'b0001:
 				begin
 					result = A + ~B + 1;
+					cout = coutCalc[32];
 				end
 			4'b0010:
 				begin
@@ -59,6 +64,7 @@ module ALU(A,B,ALUcontrol,result,flags);
 			4'b0101:
 				begin
 					result = sub[31] ^ v;
+					cout = coutCalc[32];
 				end
 			4'b0110:
 				begin
@@ -78,8 +84,9 @@ module ALU(A,B,ALUcontrol,result,flags);
 			4'b1001:
 				begin
 					result = {31'h00000000, ~cout};
+					cout = coutCalc[32];
 				end
-		default: result = 32'b0;
+		default: begin result = 32'b0; cout = 0; end
 		endcase
 		
 		z = result == 0 ? 1 : 0;
