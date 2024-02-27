@@ -12,34 +12,32 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU {C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:50:25 on Feb 22,2024
+# Start time: 09:36:37 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU" C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 14:50:25 on Feb 22,2024, Elapsed time: 0:00:00
+# End time: 09:36:37 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 do testbench.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:50:32 on Feb 22,2024
+# Start time: 09:36:45 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Downloads" C:/Users/gusbr/Downloads/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 14:50:33 on Feb 22,2024, Elapsed time: 0:00:01
+# End time: 09:36:45 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 14:50:33 on Feb 22,2024
+# Start time: 09:36:46 on Feb 26,2024
 # Loading work.testbench
 # Loading work.ALU
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: gusbr  Hostname: DESKTOP-FKG0J5M  ProcessID: 18444
-#           Attempting to use alternate WLF file "./wlfttdak0n".
+#           Attempting to use alternate WLF file "./wlftacx7sk".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfttdak0n
+#           Using alternate file: ./wlftacx7sk
 run 120 ns
-# End time: 09:29:06 on Feb 26,2024, Elapsed time: 90:38:33
-# Errors: 0, Warnings: 2

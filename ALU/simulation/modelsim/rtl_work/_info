@@ -10,14 +10,14 @@ z2
 cModel Technology
 Z0 dC:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/simulation/modelsim
 vALU
-!s110 1708631425
+!s110 1708958197
 !i10b 1
 !s100 XO]FF:4zK46_bbY?]W2]h0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IT0Qhb5YJ]2H@7e`8zF_P_0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1708631376
+w1708957823
 8C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v
 FC:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v
 !i122 0
@@ -26,7 +26,7 @@ Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1708631425.000000
+!s108 1708958197.000000
 !s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU|C:/Users/gusbr/Desktop/CodingShit/Quartus/ALU/ALU.v|
 !i113 1
@@ -35,14 +35,14 @@ Z4 o-vlog01compat -work work
 Z5 tCvgOpt 0
 n@a@l@u
 vtestbench
-!s110 1708631433
+!s110 1708958205
 !i10b 1
 !s100 4YV24YLoHCRcF:;m`2Q<P3
 R1
 I@>=Y66;]mgonlS<zoA;I]2
 R2
 R0
-w1708304996
+w1708342737
 8C:/Users/gusbr/Downloads/testbench.v
 FC:/Users/gusbr/Downloads/testbench.v
 !i122 1
@@ -51,7 +51,7 @@ R3
 r1
 !s85 0
 31
-!s108 1708631432.000000
+!s108 1708958205.000000
 !s107 C:/Users/gusbr/Downloads/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Downloads|C:/Users/gusbr/Downloads/testbench.v|
 !i113 1
