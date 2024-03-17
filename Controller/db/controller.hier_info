@@ -1,0 +1,19 @@
+|branch_unit
+Branch => taken.IN0
+Branch => taken.IN0
+Branch => taken.IN1
+Branch => taken.IN1
+Branch => taken.IN0
+Branch => taken.IN0
+flags[0] => taken.IN0
+flags[1] => taken.IN1
+flags[1] => taken.IN1
+flags[2] => taken.IN1
+flags[3] => taken.IN1
+flags[3] => taken.IN1
+funct3[0] => Mux0.IN10
+funct3[1] => Mux0.IN9
+funct3[2] => Mux0.IN8
+taken <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

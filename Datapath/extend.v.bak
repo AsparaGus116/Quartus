@@ -1,0 +1,7 @@
+module extend(Instr,ImmSrc,ImmExt);
+
+   input [31:0] Instr;
+   input [2:0] 	ImmSrc;
+   output reg [31:0] ImmExt;
+   
+endmodule

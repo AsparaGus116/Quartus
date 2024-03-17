@@ -1,0 +1,7 @@
+module load_store_unit(funct3,LoadType,StoreType);
+
+   input [2:0] funct3;
+   output reg [2:0] LoadType;
+   output reg [1:0] StoreType;
+   
+endmodule

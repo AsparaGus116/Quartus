@@ -1,0 +1,6 @@
+module imm_src_decoder (op,ImmSrc);
+
+   input [6:0] op;
+   output reg [2:0] ImmSrc;
+   
+endmodule

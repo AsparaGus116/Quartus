@@ -1,0 +1,8 @@
+module branch_unit(Branch,flags,funct3,taken);
+
+   input [3:0] flags;
+   input [2:0] funct3;
+   input Branch;
+   output taken;
+   
+endmodule
