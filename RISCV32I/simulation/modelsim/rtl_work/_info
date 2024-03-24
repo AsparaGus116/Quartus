@@ -1,0 +1,615 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/simulation/modelsim
+vaddress_decoder
+Z1 !s110 1711122729
+!i10b 1
+!s100 M8C>GVB_W`;AWhY<AKX_E0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]?U>[>`1<QKNnK^^9e]7D0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711122718
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v
+!i122 40
+L0 1 45
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711122729.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I
+Z8 tCvgOpt 0
+vALU
+Z9 !s110 1711121202
+!i10b 1
+!s100 XO]FF:4zK46_bbY?]W2]h0
+R2
+I7FJI0^8OaI08X1dklcEG62
+R3
+R0
+w1708631376
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v
+!i122 19
+L0 1 99
+R4
+r1
+!s85 0
+31
+Z10 !s108 1711121202.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v|
+!i113 1
+R6
+R7
+R8
+n@a@l@u
+vALU_decoder
+R9
+!i10b 1
+!s100 D::QWFQTUeK@?6SZALXiS0
+R2
+IPMcIWX`i^egKY1;m`9o5R3
+R3
+R0
+Z11 w1711120952
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v
+!i122 18
+Z12 L0 1 68
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v|
+!i113 1
+R6
+R7
+R8
+n@a@l@u_decoder
+vbranch_unit
+R9
+!i10b 1
+!s100 QE4z;2<IZ_[X4gDfBRhO<0
+R2
+Il@K29T@;3nT^4QeA<_KU?1
+R3
+R0
+w1710696192
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v
+!i122 17
+Z13 L0 1 22
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v|
+!i113 1
+R6
+R7
+R8
+vconstant_32bit
+R9
+!i10b 1
+!s100 V[Fn^JVklEzieaH9MOze`3
+R2
+I;Mi9?c6Fo1GO2aAPVJ0WK1
+R3
+R0
+w1709553591
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v
+!i122 16
+L0 1 8
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v|
+!i113 1
+R6
+R7
+R8
+vcontroller
+R9
+!i10b 1
+!s100 i5nl>JMBhU?gVg@E3SYIz3
+R2
+I1UlCXV3N?VEEfk5L00?Hi2
+R3
+R0
+w1710694672
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v
+!i122 15
+L0 1 100
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v|
+!i113 1
+R6
+R7
+R8
+vcpu
+!s110 1711121200
+!i10b 1
+!s100 KRE4`HHD96DPVgdAi?=eX2
+R2
+IU2K`k6:Bm4O9k^E7Zb;QG1
+R3
+R0
+w1711120645
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v
+!i122 0
+R12
+R4
+r1
+!s85 0
+31
+Z14 !s108 1711121200.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v|
+!i113 1
+R6
+R7
+R8
+vdatapath
+R9
+!i10b 1
+!s100 UiR5DS^T[fMG4fJIKidH?1
+R2
+IY7B;U>FV@CTDkaB]77iD]1
+R3
+R0
+w1709553449
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v
+!i122 14
+L0 1 208
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v|
+!i113 1
+R6
+R7
+R8
+vextend
+R9
+!i10b 1
+!s100 lEb5[RYj2WKK:9c`^<z822
+R2
+IDe8ofU9L9_1oMPi1eF_nh3
+R3
+R0
+w1709554414
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v
+!i122 13
+Z15 L0 1 20
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v|
+!i113 1
+R6
+R7
+R8
+vimm_src_decoder
+Z16 !s110 1711121201
+!i10b 1
+!s100 g6n^[T3j4LbTG8hce74EZ3
+R2
+I26^i3aoP73V@OEER1mDeQ3
+R3
+R0
+w1710695032
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v
+!i122 12
+R13
+R4
+r1
+!s85 0
+31
+Z17 !s108 1711121201.000000
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v|
+!i113 1
+R6
+R7
+R8
+vload_store_unit
+R16
+!i10b 1
+!s100 kDcUKddefBae9<A2=JG<50
+R2
+Il_QXdD;l_zz`4ezJd>Mk>1
+R3
+R0
+w1710695590
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v
+!i122 11
+L0 1 43
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v|
+!i113 1
+R6
+R7
+R8
+vmain_fsm
+R16
+!i10b 1
+!s100 3PO=Q3cB<1BCX?2XfCQba2
+R2
+IGVQc_6C7icXiXHIPI]z]D2
+R3
+R0
+R11
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v
+!i122 10
+L0 1 278
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v|
+!i113 1
+R6
+R7
+R8
+vmux2
+R16
+!i10b 1
+!s100 a1F4Ulk91_=2DUYZS?LgY1
+R2
+I@74RD@4Ud6]Zb^W7mH=U;3
+R3
+R0
+w1707138899
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v
+!i122 9
+R15
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v|
+!i113 1
+R6
+R7
+R8
+vmux3
+R16
+!i10b 1
+!s100 N^RSH4_Abm3UX[HB6=U2P0
+R2
+IU?oliK?S>_Md`j3ZQ=hMT3
+R3
+R0
+w1707138532
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v
+!i122 8
+L0 1 23
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v|
+!i113 1
+R6
+R7
+R8
+vmux4
+R16
+!i10b 1
+!s100 @gE9SE?bac9021A`<TnL;3
+R2
+IcKgHcEd>h_Po>i]R98icE0
+R3
+R0
+w1706543055
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v
+!i122 7
+L0 1 24
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v|
+!i113 1
+R6
+R7
+R8
+vRAM_memory
+R1
+!i10b 1
+!s100 7gme8:DZo=7IF5VzNXk771
+R2
+ImgV4V<e`OEH<l`=cTRlFV3
+R3
+R0
+w1711120644
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v
+!i122 41
+Z18 L0 1 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v|
+!i113 1
+R6
+R7
+R8
+n@r@a@m_memory
+vread_data
+R16
+!i10b 1
+!s100 g`X7S@EWGg=hen3C:1AAg2
+R2
+IF12PQgMMaCeAfgd;;[IPP2
+R3
+R0
+Z19 w1708305024
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v
+!i122 6
+L0 20 98
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v|
+!i113 1
+R6
+R7
+R8
+vregister_file
+R16
+!i10b 1
+!s100 9i6jTlf?NTTRP_lzd?R2D3
+R2
+INo1EV9?GNzNTW0bf]gl7h0
+R3
+R0
+w1711121054
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v
+!i122 5
+R18
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v|
+!i113 1
+R6
+R7
+R8
+vregister_n
+R16
+!i10b 1
+!s100 OOkK2MB?M17MGDEzGHkW83
+R2
+I5cf?_b20n5o?<gefn9=9<0
+R3
+R0
+w1707140740
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v
+!i122 4
+L0 1 18
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v|
+!i113 1
+R6
+R7
+R8
+vreset_clock
+R1
+!i10b 1
+!s100 jSKZ0WiTHC=S3fUPIM74g0
+R2
+IbXNaH8OIFF2:elV8^P@3>1
+R3
+R0
+Z20 w1711120640
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v
+!i122 43
+L0 3 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v|
+!i113 1
+R6
+R7
+R8
+vROM_memory
+R1
+!i10b 1
+!s100 PP>LSd:JQ6UJ6ZQZ[g?eg3
+R2
+I9A2G8e15Jo_T<R_0j6=K:2
+R3
+R0
+R20
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v
+!i122 42
+L0 1 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v|
+!i113 1
+R6
+R7
+R8
+n@r@o@m_memory
+vsign_extend
+R16
+!i10b 1
+!s100 UV6diWnh<M1hjnWcUa`C12
+R2
+IVS9l=Sf72`dIo<XHe8G1T3
+R3
+R0
+Z21 w1708628482
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v
+!i122 3
+L0 1 13
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+!i10b 1
+!s100 ki<B=;o=85I8G6CJ5DzJ>3
+R2
+IX4gdRfNF^E>=Fk:565Yc90
+R3
+R0
+w1711120647
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v
+!i122 44
+L0 20 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v|
+!i113 1
+R6
+R7
+R8
+vwrite_data
+R16
+!i10b 1
+!s100 `KcOGi:nm9]`:TeEEBahd0
+R2
+I]MKfR0]2O0[48NC3:g7`b1
+R3
+R0
+R19
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v
+!i122 2
+L0 20 106
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v|
+!i113 1
+R6
+R7
+R8
+vzero_extend
+R16
+!i10b 1
+!s100 lT_b8jmK1e7mjL6j1QboW3
+R2
+IJi2cZ^m:hcaHZeeB1U:=j3
+R3
+R0
+R21
+8C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v
+FC:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v
+!i122 1
+L0 1 11
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I|C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v|
+!i113 1
+R6
+R7
+R8

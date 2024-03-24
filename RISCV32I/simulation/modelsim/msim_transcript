@@ -1,0 +1,762 @@
+# Reading pref.tcl
+# do cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:40 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 11:26:40 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:40 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/zero_extend.v 
+# -- Compiling module zero_extend
+# 
+# Top level modules:
+# 	zero_extend
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/write_data.v 
+# -- Compiling module write_data
+# 
+# Top level modules:
+# 	write_data
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_n.v 
+# -- Compiling module register_n
+# 
+# Top level modules:
+# 	register_n
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/register_file.v 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/read_data.v 
+# -- Compiling module read_data
+# 
+# Top level modules:
+# 	read_data
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux3.v 
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/main_fsm.v 
+# -- Compiling module main_fsm
+# 
+# Top level modules:
+# 	main_fsm
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/load_store_unit.v 
+# -- Compiling module load_store_unit
+# 
+# Top level modules:
+# 	load_store_unit
+# End time: 11:26:41 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:41 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/imm_src_decoder.v 
+# -- Compiling module imm_src_decoder
+# 
+# Top level modules:
+# 	imm_src_decoder
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/extend.v 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/constant_32bit.v 
+# -- Compiling module constant_32bit
+# 
+# Top level modules:
+# 	constant_32bit
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/branch_unit.v 
+# -- Compiling module branch_unit
+# 
+# Top level modules:
+# 	branch_unit
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU_decoder.v 
+# -- Compiling module ALU_decoder
+# 
+# Top level modules:
+# 	ALU_decoder
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I {C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:42 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 11:26:42 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:34:43 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v" 
+#     The vlog command compiles Verilog source code and SystemVerilog extensions
+#     into a specified working library (or to the work library by default).
+#     Compressed SystemVerilog source files (those compressed with zlib) are
+#     accepted.
+#     
+#     The vlog command may be invoked from within Questa SIM or from the
+#     operating system command prompt. It may also be invoked during simulation.
+#     Compiled libraries are major-version dependent. When moving between major
+#     version, you have to refresh compiled libraries using the -refresh argument
+#     to vlog. This is not true for minor versions (letter releases).
+#     
+#     All arguments to the vlog command are case sensitive. For example, -WORK
+#     and -work are not equivalent.
+#     
+#     SystemVerilog requires that the default behavior of the vlog command is to
+#     treat each Verilog design file listed on the command line as a separate
+#     compilation unit. To treat multiple files listed within a single command
+#     line as a single compilation unit, use either the vlog -mfcu argument or
+#     the MultiFileCompilationUnit in the User's Manual
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vlog -help all            : List all categories and options
+#     vlog -help category       : List all categories
+#     vlog -help <option>       : Help on an option
+#     vlog -help <command-line> : Help on all options in a command-line
+#     vlog -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vlog tool.
+# 
+#     General         List most common general options
+#     Analog          List options supporting analog mixed-signal (AMS)
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     Messages        List all warn, error, note, fatal messages options
+#     Optimize        List options for optimization
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.do line 1
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v"
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:35:52 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v" 
+#     The vlog command compiles Verilog source code and SystemVerilog extensions
+#     into a specified working library (or to the work library by default).
+#     Compressed SystemVerilog source files (those compressed with zlib) are
+#     accepted.
+#     
+#     The vlog command may be invoked from within Questa SIM or from the
+#     operating system command prompt. It may also be invoked during simulation.
+#     Compiled libraries are major-version dependent. When moving between major
+#     version, you have to refresh compiled libraries using the -refresh argument
+#     to vlog. This is not true for minor versions (letter releases).
+#     
+#     All arguments to the vlog command are case sensitive. For example, -WORK
+#     and -work are not equivalent.
+#     
+#     SystemVerilog requires that the default behavior of the vlog command is to
+#     treat each Verilog design file listed on the command line as a separate
+#     compilation unit. To treat multiple files listed within a single command
+#     line as a single compilation unit, use either the vlog -mfcu argument or
+#     the MultiFileCompilationUnit in the User's Manual
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vlog -help all            : List all categories and options
+#     vlog -help category       : List all categories
+#     vlog -help <option>       : Help on an option
+#     vlog -help <command-line> : Help on all options in a command-line
+#     vlog -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vlog tool.
+# 
+#     General         List most common general options
+#     Analog          List options supporting analog mixed-signal (AMS)
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     Messages        List all warn, error, note, fatal messages options
+#     Optimize        List options for optimization
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.do line 1
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v"
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:36:06 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v" 
+#     The vlog command compiles Verilog source code and SystemVerilog extensions
+#     into a specified working library (or to the work library by default).
+#     Compressed SystemVerilog source files (those compressed with zlib) are
+#     accepted.
+#     
+#     The vlog command may be invoked from within Questa SIM or from the
+#     operating system command prompt. It may also be invoked during simulation.
+#     Compiled libraries are major-version dependent. When moving between major
+#     version, you have to refresh compiled libraries using the -refresh argument
+#     to vlog. This is not true for minor versions (letter releases).
+#     
+#     All arguments to the vlog command are case sensitive. For example, -WORK
+#     and -work are not equivalent.
+#     
+#     SystemVerilog requires that the default behavior of the vlog command is to
+#     treat each Verilog design file listed on the command line as a separate
+#     compilation unit. To treat multiple files listed within a single command
+#     line as a single compilation unit, use either the vlog -mfcu argument or
+#     the MultiFileCompilationUnit in the User's Manual
+#     
+#     Try the following to get help on specific options or categories: 
+# 
+#     vlog -help all            : List all categories and options
+#     vlog -help category       : List all categories
+#     vlog -help <option>       : Help on an option
+#     vlog -help <command-line> : Help on all options in a command-line
+#     vlog -help <category>     : List all options in a category
+# 
+#     Category:       The list of categories in vlog tool.
+# 
+#     General         List most common general options
+#     Analog          List options supporting analog mixed-signal (AMS)
+#     Coverage        List options for Coverage
+#     Cpp             List options supporting SystemC module
+#     Debug           List options for debug, and assertion
+#     GLS             List options for Gate Level Simulation
+#     Language        List all options supported by hardware language Verilog/VHDL
+#     Library         List options for design, work library
+#     Messages        List all warn, error, note, fatal messages options
+#     Optimize        List options for optimization
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.do line 1
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v"
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:49 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v 
+# -- Compiling module address_decoder
+# 
+# Top level modules:
+# 	address_decoder
+# End time: 11:38:49 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:49 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v 
+# -- Compiling module RAM_memory
+# ** Warning: C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	RAM_memory
+# End time: 11:38:49 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:49 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v 
+# -- Compiling module ROM_memory
+# 
+# Top level modules:
+# 	ROM_memory
+# End time: 11:38:49 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:49 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v 
+# -- Compiling module reset_clock
+# 
+# Top level modules:
+# 	reset_clock
+# End time: 11:38:49 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:49 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:38:49 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:38:49 on Mar 22,2024
+# Loading work.testbench
+# Loading work.address_decoder
+# Loading work.RAM_memory
+# Loading work.reset_clock
+# Loading work.cpu
+# Loading work.controller
+# Loading work.ALU_decoder
+# Loading work.branch_unit
+# Loading work.imm_src_decoder
+# Loading work.load_store_unit
+# Loading work.main_fsm
+# Loading work.datapath
+# Loading work.register_n
+# Loading work.ALU
+# Loading work.mux3
+# Loading work.extend
+# Loading work.mux2
+# Loading work.constant_32bit
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.sign_extend
+# Loading work.zero_extend
+# Loading work.register_file
+# Loading work.write_data
+# Loading work.ROM_memory
+run 16000 ns
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:21 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v 
+# -- Compiling module address_decoder
+# 
+# Top level modules:
+# 	address_decoder
+# End time: 11:39:21 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:21 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v 
+# -- Compiling module RAM_memory
+# ** Warning: C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	RAM_memory
+# End time: 11:39:21 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:21 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v 
+# -- Compiling module ROM_memory
+# 
+# Top level modules:
+# 	ROM_memory
+# End time: 11:39:21 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:21 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v 
+# -- Compiling module reset_clock
+# 
+# Top level modules:
+# 	reset_clock
+# End time: 11:39:22 on Mar 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:22 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:39:22 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:23 on Mar 22,2024, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:39:23 on Mar 22,2024
+# Loading work.testbench
+# Loading work.address_decoder
+# Loading work.RAM_memory
+# Loading work.reset_clock
+# Loading work.cpu
+# Loading work.controller
+# Loading work.ALU_decoder
+# Loading work.branch_unit
+# Loading work.imm_src_decoder
+# Loading work.load_store_unit
+# Loading work.main_fsm
+# Loading work.datapath
+# Loading work.register_n
+# Loading work.ALU
+# Loading work.mux3
+# Loading work.extend
+# Loading work.mux2
+# Loading work.constant_32bit
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.sign_extend
+# Loading work.zero_extend
+# Loading work.register_file
+# Loading work.write_data
+# Loading work.ROM_memory
+add wave -position insertpoint  \
+sim:/testbench/RAM_CS \
+sim:/testbench/RAM_WE \
+sim:/testbench/ReadData \
+sim:/testbench/reset \
+sim:/testbench/ROM_CS \
+sim:/testbench/WriteData
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:40:45 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v 
+# -- Compiling module address_decoder
+# 
+# Top level modules:
+# 	address_decoder
+# End time: 11:40:45 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:40:45 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v 
+# -- Compiling module RAM_memory
+# ** Warning: C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	RAM_memory
+# End time: 11:40:46 on Mar 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:40:46 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v 
+# -- Compiling module ROM_memory
+# 
+# Top level modules:
+# 	ROM_memory
+# End time: 11:40:46 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:40:46 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v 
+# -- Compiling module reset_clock
+# 
+# Top level modules:
+# 	reset_clock
+# End time: 11:40:46 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:40:46 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:40:46 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:40:47 on Mar 22,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:40:48 on Mar 22,2024
+# Loading work.testbench
+# Loading work.address_decoder
+# Loading work.RAM_memory
+# Loading work.reset_clock
+# Loading work.cpu
+# Loading work.controller
+# Loading work.ALU_decoder
+# Loading work.branch_unit
+# Loading work.imm_src_decoder
+# Loading work.load_store_unit
+# Loading work.main_fsm
+# Loading work.datapath
+# Loading work.register_n
+# Loading work.ALU
+# Loading work.mux3
+# Loading work.extend
+# Loading work.mux2
+# Loading work.constant_32bit
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.sign_extend
+# Loading work.zero_extend
+# Loading work.register_file
+# Loading work.write_data
+# Loading work.ROM_memory
+add wave -position insertpoint sim:/testbench/b2v_RISCV/b2v_datapath_0/*
+add wave -position insertpoint sim:/testbench/b2v_RISCV/b2v_datapath_0/b2v_rf_0/*
+add wave -position insertpoint  \
+sim:/testbench/b2v_RISCV/b2v_datapath_0/b2v_rf_0/Q
+run 16000 ns
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:31 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v 
+# -- Compiling module address_decoder
+# 
+# Top level modules:
+# 	address_decoder
+# End time: 11:48:31 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:31 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v 
+# -- Compiling module RAM_memory
+# ** Warning: C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	RAM_memory
+# End time: 11:48:32 on Mar 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:32 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v 
+# -- Compiling module ROM_memory
+# 
+# Top level modules:
+# 	ROM_memory
+# End time: 11:48:32 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:32 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v 
+# -- Compiling module reset_clock
+# 
+# Top level modules:
+# 	reset_clock
+# End time: 11:48:32 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:48:32 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:48:32 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:48:33 on Mar 22,2024, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:48:33 on Mar 22,2024
+# Loading work.testbench
+# Loading work.address_decoder
+# Loading work.RAM_memory
+# Loading work.reset_clock
+# Loading work.cpu
+# Loading work.controller
+# Loading work.ALU_decoder
+# Loading work.branch_unit
+# Loading work.imm_src_decoder
+# Loading work.load_store_unit
+# Loading work.main_fsm
+# Loading work.datapath
+# Loading work.register_n
+# Loading work.ALU
+# Loading work.mux3
+# Loading work.extend
+# Loading work.mux2
+# Loading work.constant_32bit
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.sign_extend
+# Loading work.zero_extend
+# Loading work.register_file
+# Loading work.write_data
+# Loading work.ROM_memory
+add wave -position insertpoint sim:/testbench/b2v_address_decoder_0/*
+add wave -position insertpoint sim:/testbench/b2v_RAM_0/*
+add wave -position insertpoint sim:/testbench/b2v_ROM_0/*
+run  1000 ns
+do tests
+# Cannot open macro file: tests
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:52:09 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/address_decoder.v 
+# -- Compiling module address_decoder
+# 
+# Top level modules:
+# 	address_decoder
+# End time: 11:52:09 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:52:09 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v 
+# -- Compiling module RAM_memory
+# ** Warning: C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	RAM_memory
+# End time: 11:52:09 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:52:09 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/ROM_memory.v 
+# -- Compiling module ROM_memory
+# 
+# Top level modules:
+# 	ROM_memory
+# End time: 11:52:09 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:52:09 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/reset_clock.v 
+# -- Compiling module reset_clock
+# 
+# Top level modules:
+# 	reset_clock
+# End time: 11:52:09 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:52:09 on Mar 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I" C:/Users/gusbr/Desktop/CodingShit/Quartus/RISCV32I/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:52:09 on Mar 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:52:10 on Mar 22,2024, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 11:52:10 on Mar 22,2024
+# Loading work.testbench
+# Loading work.address_decoder
+# Loading work.RAM_memory
+# Loading work.reset_clock
+# Loading work.cpu
+# Loading work.controller
+# Loading work.ALU_decoder
+# Loading work.branch_unit
+# Loading work.imm_src_decoder
+# Loading work.load_store_unit
+# Loading work.main_fsm
+# Loading work.datapath
+# Loading work.register_n
+# Loading work.ALU
+# Loading work.mux3
+# Loading work.extend
+# Loading work.mux2
+# Loading work.constant_32bit
+# Loading work.read_data
+# Loading work.mux4
+# Loading work.sign_extend
+# Loading work.zero_extend
+# Loading work.register_file
+# Loading work.write_data
+# Loading work.ROM_memory
+add wave -position insertpoint  \
+sim:/testbench/b2v_RISCV/b2v_datapath_0/b2v_rf_0/Q
+run 1000 ns
+# End time: 20:17:59 on Mar 23,2024, Elapsed time: 32:25:49
+# Errors: 0, Warnings: 0
